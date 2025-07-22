@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #007acc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>MANOGNA.P</h1>
+    <p>Email: manogna947@gmail.com | Phone: +91-86XXXXXXXX</p>
+    <p>Location: Hyderabad, Telangana</p>
+
+    <h2>Career Objective</h2>
+    <p>To obtain a challenging position in a reputed organization where I can contribute and grow.</p>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in CSE</strong> – KL University, 2024 – 2028</li>
+      <li><strong>Intermediate</strong> – NARAYANA JUNIOR COLLEGE, 2022 – 2024</li>
+    </ul>
+
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Languages: C,JAVA,PYTHON</li>
+      <li>Web: HTML, CSS</li>
+      <li>Tools: VS Code, Git, Linux</li>
+    </ul>
+
+
+    <h2>Languages Known</h2>
+    <p>English, Telugu, Hindi</p>
+
+    <h2>Declaration</h2>
+    <p>I hereby declare that the above information is true to the best of my knowledge.</p>
+  </div>
+</body>
+</html>
